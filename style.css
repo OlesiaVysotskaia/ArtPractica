@@ -1,0 +1,63 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:400,700&display=swap&subset=cyrillic');
+/* Макет */
+/* .maket {
+width: 1440px;
+height: 18486px;
+opacity: 0.5;
+} */
+
+h2 {
+  font-family: 'Oswald';
+  font-size: 56px;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: 'Oswald';
+  font-size: 48px;
+  font-weight: 400;
+}
+
+p , ul {
+  font-family: 'Open Sans';
+  font-size: 32px;
+}
+
+ul {
+  list-style: circle;
+}
+
+h1 {
+  font-family: 'Oswald';
+  font-size: 64px;
+  font-weight: bold;
+  font-size: 64px;
+  margin-top:324px;
+  z-index: 2;
+  width: 502px;
+  position: relative;
+  left: 113px;
+}
+
+/* Текст под заголовком */
+h1 + p {
+  font-family: 'Open Sans';
+  font-weight: 700;
+  font-size: 32px;
+  margin-top: 60px;
+  z-index: 2;
+  margin-top: 60px;
+  margin-left: 113px;
+  width: 700px;
+}
+
+#box {
+  width: 864px;
+  height: 892px;
+  background: #5E9D53;
+  position: absolute;
+  top: 162px;
+  left: 578px;
+  z-index: -1;
+}
