@@ -1,0 +1,142 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:400,700&display=swap&subset=cyrillic');
+
+/* Макет */
+
+/* body {
+  background: url('../images/bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+} */
+
+/* Навигация */
+
+nav ul li {
+  font-family: 'Open Sans';
+
+  padding: 15px;
+
+  display: inline-block;
+  letter-spacing: 0.5px;
+  font-size: 24px;
+}
+
+nav ul {
+  /* margin-left: 105px; */
+  position: fixed;
+  background: #fff;
+  z-index: 99;
+
+  text-align: center;
+
+  width: 1680px;
+}
+
+h1, h2, h3 {
+  font-family: 'Oswald'
+}
+
+h2 {
+  font-size: 56px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 48px;
+}
+
+a, ul {
+  font-family: 'Open Sans';
+  font-size: 32px;
+}
+
+/*
+Первая секция
+ */
+
+.box1 {
+  height: 120vh;
+  position: relative;
+}
+
+.box1 h1 {
+  font-size: 74px;
+  font-weight: 700;
+
+  position: absolute;
+  left: 130px;
+  top: 255px;
+
+  width:600px;
+}
+
+.box1 a {
+  font-size: 36px;
+  font-weight: 600;
+
+  position: absolute;
+  left: 130px;
+  top: 546px;
+
+  letter-spacing: 1;
+
+  width: 745px;
+
+}
+
+.box1 {
+  background: url('../images/Cover3.png') no-repeat;
+  background-position: 100% 100%;
+  background-size: 1100px;
+
+}
+
+/*
+ Вторая секция
+ */
+ .left {
+   position: relative;
+   margin-top: 144px;
+   margin-left: 180px;
+ }
+
+.box2 h2 {
+}
+
+.box2 h3 {
+  position: absolute;
+  top: 65px;
+}
+
+.box2 a {
+  position: absolute;
+  top: 155px;
+  width: 530px;
+}
+
+.box2 li {
+  line-height: 45px;
+}
+
+.box2 ul {
+  position: absolute;
+  top: 430px;
+  left: 35px;
+}
+
+.box2 a+ul {
+  position: absolute;
+  left: 250px;
+}
+
+ul {
+  list-style: none;
+}
+
+.box2 ul li::before {
+  content: "\2022";
+  color: #DF5959;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
