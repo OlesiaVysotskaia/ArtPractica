@@ -96,12 +96,14 @@ a, ul {
  */
  .left {
    position: relative;
-   margin-top: 144px;
    margin-left: 180px;
  }
 
-.box2 h2 {
-}
+ .box2 {
+   position: relative;
+   margin-top: 144px;
+   height: 800px;
+ }
 
 .box2 h3 {
   position: absolute;
@@ -140,3 +142,47 @@ ul {
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.salad1 img {
+  position: absolute;
+  left: 956px;
+  top: 20px;
+  z-index: 88;
+}
+
+.salad2 img {
+  position: absolute;
+  left: 1096px;
+  top: 475px;
+  z-index: 88;
+}
+
+.greenblock {
+  width: 516px;
+  height: 397px;
+  position: absolute;
+  top: 226px;
+  left: 840px;
+  background-color: #2C4228;
+}
+
+  /* Третья секция */
+
+.right {
+    position: absolute;
+    left: 821px;
+  }
+
+.box3 {
+    position: relative;
+    margin-top: 260px;
+  }
+
+.box3 h3 {
+  width: 320px;
+}
+
+.box3 a {
+  width: 530px;
+}
