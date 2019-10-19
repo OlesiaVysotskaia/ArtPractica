@@ -211,3 +211,54 @@ ul {
   position: absolute;
   top: 136px;
 }
+
+/*
+Четвертая секция
+ */
+
+.box4 {
+  position: relative;
+  margin-top: 144px;
+  height: 760px;
+}
+
+.fruitsalad img {
+  position: absolute;
+  top: 85px;
+  z-index: 88;
+  right: 150px;
+}
+
+.greenblock3 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 15px;
+  right: 0px;
+}
+
+/*
+Пятая секция
+*/
+
+.box5 {
+  position: relative;
+  margin-top 144px;
+  height: 570px;
+}
+
+.box5 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box5 p {
+  position: absolute;
+  top: 90px;
+}
+
+.sandwich img {
+  position: absolute;
+  top: 15px;
+}
