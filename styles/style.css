@@ -244,7 +244,7 @@ ul {
 
 .box5 {
   position: relative;
-  margin-top 144px;
+  margin-top: 144px;
   height: 570px;
 }
 
@@ -260,5 +260,41 @@ ul {
 
 .sandwich img {
   position: absolute;
+  top: 70px;
+  left: 50px;
+  z-index: 88;
+}
+
+.greenblock4 {
+  width: 401px;
+  height: 356px;
+  background-color: #2C4228;
+  position: absolute;
   top: 15px;
 }
+
+/*
+ Шестая секция
+ */
+
+ .box6 {
+   position: relative;
+   margin-top: 144px;
+   height: 570px;
+ }
+
+ .roll img {
+   position: absolute;
+   top: 0px;
+   right: 0px;
+   z-index: 88;
+ }
+
+ .greenblock5 {
+   width: 346px;
+   height: 303px;
+   background-color: #2C4228;
+   position: absolute;
+   top: 200px;
+   right: 230px;
+ }
