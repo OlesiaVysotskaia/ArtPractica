@@ -385,7 +385,7 @@ ul {
      background-color: #2C4228;
      position: absolute;
      top: 200px;
-     right: 340px
+     right: 340px;
    }
 
 
@@ -393,4 +393,75 @@ ul {
    Девятая секция
     */
 
-    
+    .box9 {
+      position: relative;
+      margin-top: 144px;
+      height: 510px;
+    }
+
+    .box9 p {
+      position: absolute;
+      top: 0px;
+    }
+
+    .kotleta img {
+      position: absolute;
+      top: 20px;
+      z-index: 88;
+    }
+
+    .greenblock8 {
+      width: 409px;
+      height: 358px;
+      background-color: #2C4228;
+      position: absolute;
+      top: 140px;
+      left: 120px;
+    }
+
+    /*
+    Десятая секция
+     */
+
+     .box10 {
+       position: relative;
+       margin-top: 144px;
+       height: 800px;
+     }
+
+     .box10 h3 {
+       position: absolute;
+       top: 0px;
+
+     }
+
+     .left p:nth-child(2) {
+       position: absolute;
+       top: 90px;
+     }
+     .left p:nth-child(3) {
+       position: absolute;
+       top: 520px;
+     }
+
+     .vegetables2 img {
+       position: absolute;
+       top: 20px;
+       z-index: 88;
+     }
+
+     .vegetables3 img {
+       position: absolute;
+       top: 510px;
+       right: 180px;
+       z-index: 88;
+     }
+
+     .greenblock9 {
+       width: 390px;
+       height: 315px;
+       background-color: #2C4228;
+       position: absolute;
+       top: 370px;
+       right: 460px;
+     }
