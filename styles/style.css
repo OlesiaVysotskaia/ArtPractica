@@ -778,4 +778,37 @@ ul {
   Девятнадцатая секция
   */
 
-  
+  .box19 {
+    position: relative;
+    margin-top: 260px;
+    height: 500px;
+  }
+
+  .box19 h3 {
+    position: absolute;
+    top: 0px;
+  }
+
+  .box19 p {
+    position: absolute;
+    top: 90px;
+  }
+
+  .lemon img {
+    position: absolute;
+    top: 0px;
+  }
+
+  .lemonade img {
+    position: absolute;
+    top: 150px;
+  }
+
+  .greenblock18 {
+    width: 429px;
+    height: 376px;
+    background-color: #2C4228;
+    position: absolute;
+    top: 80px;
+    right: 240px;
+  }
