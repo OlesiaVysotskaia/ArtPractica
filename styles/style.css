@@ -22,7 +22,7 @@ nav ul li {
 }
 
 nav ul {
-  /* margin-left: 105px; */
+
   position: fixed;
   background: #fff;
   z-index: 99;
@@ -32,13 +32,21 @@ nav ul {
   width: 1680px;
 }
 
+nav a:link {
+  color: #000;
+}
+
+nav a:visited {
+  color: inherit;
+}
+
 a:link {
-  color: black;
+  color: #858585;
   text-decoration: none;
 }
 
 a:visited {
-  color: inherit;
+  color: #858585;
 }
 
 /*
@@ -125,12 +133,12 @@ p {
 
 .box2 h3 {
   position: absolute;
-  top: 65px;
+  top: 70px;
 }
 
 .box2 p {
   position: absolute;
-  top: 155px;
+  top: 160px;
   width: 530px;
 }
 
@@ -140,7 +148,7 @@ p {
 
 .box2 ul {
   position: absolute;
-  top: 495px;
+  top: 505px;
   left: 35px;
 }
 
@@ -763,12 +771,12 @@ ul {
 
   .box18 h3 {
     position: absolute;
-    top: 65px;
+    top: 70px;
   }
 
   .box18 p {
     position: absolute;
-    top: 155px;
+    top: 165px;
   }
 
   .tea img {
@@ -873,7 +881,7 @@ ul {
   .box21 {
     position: relative;
     margin-top: 144px;
-    height: 626px;
+    height: 590px;
   }
 
   .box21 p:nth-child(1) {
@@ -909,16 +917,47 @@ ul {
 
    .box22{
      background-color: #2C4228;
-     height: 500px;
+     height: 300px;
      position: relative;
      margin-top: 260px;
    }
 
-   .box22 p {
-     position: absolute;
-     width: 520px;
-     font-size: 24px;
-     left: 40%;
-     bottom: 75px;
+   .box22 a:link {
      color: #fff;
+   }
+
+   .box22 a:visited {
+     color: inherit;
+   }
+
+   .box22 p {
+     text-align: center;
+     color: #fff;
+     font-size: 24px;
+   }
+
+   .box22 p:nth-child(1) {
+     position: absolute;
+     font-weight: 600;
+     font-size: 30px;
+     top: 60px;
+     left: 35%;
+   }
+
+   .box22 p:nth-child(2) {
+     position: absolute;
+     top: 120px;
+     left: 35%;
+   }
+
+   .box22 p:nth-child(3) {
+     position: absolute;
+     top: 160px;
+     left: 35%;
+   }
+
+   .box22 p:nth-child(4) {
+     position: absolute;
+     top: 200px;
+     left: 35%;
    }
