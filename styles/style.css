@@ -1,14 +1,6 @@
 @import "reset.css";
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600|Oswald:400,700&display=swap&subset=cyrillic');
 
-/* Макет */
-
-/* body {
-  background: url('../images/bg.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-} */
-
 /* Навигация */
 
 nav ul li {
@@ -76,6 +68,16 @@ p {
   line-height: 1.3;
 }
 
+.left {
+  position: relative;
+  margin-left: 180px;
+}
+
+.right {
+  position: relative;
+  margin-left: 900px;
+}
+
 /*
 Первая секция
  */
@@ -120,16 +122,12 @@ p {
 /*
  Вторая секция
  */
- .left {
-   position: relative;
-   margin-left: 180px;
- }
 
- .box2 {
-   position: relative;
-   margin-top: 144px;
-   height: 775px;
- }
+.box2 {
+  position: relative;
+  margin-top: 144px;
+  height: 775px;
+}
 
 .box2 h3 {
   position: absolute;
@@ -196,14 +194,9 @@ ul {
   /* Третья секция */
 
 .box3 {
-    position: relative;
-    margin-top: 260px;
-    height: 456px;
-  }
-
-.right {
-      position: relative;
-      margin-left: 900px;
+  position: relative;
+  margin-top: 260px;
+  height: 456px;
 }
 
 .salad3 img{
@@ -214,12 +207,12 @@ ul {
 }
 
 .greenblock2 {
-    width: 401px;
-    height: 356px;
-    background-color: #2C4228;
-    position: absolute;
-    top: 100px;
-    left: 90px;
+  width: 401px;
+  height: 356px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 100px;
+  left: 90px;
 }
 
 .box3 h3 {
@@ -298,666 +291,665 @@ ul {
  Шестая секция
  */
 
- .box6 {
-   position: relative;
-   margin-top: 144px;
-   height: 504px;
- }
+.box6 {
+  position: relative;
+  margin-top: 144px;
+  height: 504px;
+}
 
- .roll img {
-   position: absolute;
-   top: 0px;
-   right: 180px;
-   z-index: 88
- }
+.roll img {
+  position: absolute;
+  top: 0px;
+  right: 180px;
+  z-index: 88
+}
 
- .greenblock5 {
-   width: 346px;
-   height: 303px;
-   background-color: #2C4228;
-   position: absolute;
-   top: 200px;
-   right: 370px;
- }
+.greenblock5 {
+  width: 346px;
+  height: 303px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 200px;
+  right: 370px;
+}
 
  /*
 Седьмая секция
   */
-
-  .box7 {
-    position: relative;
-    margin-top: 260px;
-    height: 490px;
-  }
-
-  .box7 h2 {
-    position: absolute;
-    top: 0px;
-  }
-
-  .box7 p {
-    position: absolute;
-    top: 90px;
-  }
-
-  .stove img {
-    position: absolute;
-    top: 130px;
-    left: 130px;
-    z-index: 88;
-  }
-
-  .greenblock6 {
-    width: 429px;
-    height: 376px;
-    background-color: #2C4228;
-    position: absolute;
-    top: 20px;
-    left: 0px;
-  }
-
-  /*
-  Восьмая секция
-   */
-
-   .box8 {
-     position: relative;
-     margin-top: 144px;
-     height: 785px;
-   }
-
-   .box8 h3 {
-     position: absolute;
-     top: 0px;
-   }
-
-   .box8 h3+p {
-     position: absolute;
-     top: 90px;
-   }
-
-   .box8 p:nth-child(3) {
-     position: absolute;
-     top: 230px;
-   }
-
-   .left p:nth-child(4) {
-     position: absolute;
-     top: 535px;
-   }
-
-   .chicken img {
-     position: absolute;
-     top: 350px;
-     right: 180px;
-     z-index: 88;
-   }
-
-   .vegetables img {
-     position: absolute;
-     top: 20px;
-     right: 220px;
-     z-index: 88;
-   }
-
-   .greenblock7 {
-     width: 445px;
-     height: 342px;
-     background-color: #2C4228;
-     position: absolute;
-     top: 200px;
-     right: 340px;
-   }
-
-
-   /*
-   Девятая секция
-    */
-
-    .box9 {
-      position: relative;
-      margin-top: 144px;
-      height: 498px;
-    }
-
-    .box9 p {
-      position: absolute;
-      top: 0px;
-    }
-
-    .kotleta img {
-      position: absolute;
-      top: 20px;
-      z-index: 88;
-    }
-
-    .greenblock8 {
-      width: 409px;
-      height: 358px;
-      background-color: #2C4228;
-      position: absolute;
-      top: 140px;
-      left: 120px;
-    }
-
-    /*
-    Десятая секция
-     */
-
-     .box10 {
-       position: relative;
-       margin-top: 144px;
-       height: 810px;
-     }
-
-     .box10 h3 {
-       position: absolute;
-       top: 0px;
-
-     }
-
-     .box10 .left p:nth-child(2) {
-       position: absolute;
-       top: 90px;
-     }
-     .box10 .left p:nth-child(3) {
-       position: absolute;
-       top: 520px;
-     }
-
-     .vegetables2 img {
-       position: absolute;
-       top: 20px;
-       z-index: 88;
-     }
-
-     .vegetables3 img {
-       position: absolute;
-       top: 510px;
-       right: 180px;
-       z-index: 88;
-     }
-
-     .greenblock9 {
-       width: 390px;
-       height: 315px;
-       background-color: #2C4228;
-       position: absolute;
-       top: 370px;
-       right: 460px;
-     }
-
-     /*
-     Одиннадцатая секция
-     */
-
-    .box11 {
-      position: relative;
-      margin-top: 144px;
-      height: 636px;
-    }
-
-    .box11 h3 {
-      position: absolute;
-      top: 0px;
-    }
-
-    .box11 p {
-      position: absolute;
-      top: 90px;
-    }
-
-    .spagetti img {
-      position: absolute;
-      top: 20px;
-      left: 120px;
-      z-index: 88;
-    }
-
-    .makaron img {
-      position: absolute;
-      top: 390px;
-      left: 40px;
-      z-index: 88;
-    }
-
-    .greenblock10 {
-      width: 429px;
-      height: 376px;
-      background-color: #2C4228;
-      position: absolute;
-      top: 90px;
-    }
-
-    /*
-    Двенадцатая секция
-    */
-
-  .box12 {
-    position: relative;
-    margin-top: 144px;
-    height: 570px;
-  }
-
-  .box12 p {
-    position: absolute;
-    top: 0px;
-  }
-
-  .box12 ul {
-    position: absolute;
-    top: 220px;
-    width: 475px;
-    letter-spacing: 0.5px;
-    line-height: 1.3;
-  }
-
-  .box12 ul li {
-    padding-top: 10px;
-  }
-
-  .makaroni img {
-    position: absolute;
-    top: 70px;
-    z-index: 88;
-  }
-
-  .greenblock11 {
-    width: 429px;
-    height: 376px;
-    background-color: #2C4228;
-    position: absolute;
-    top: 0px;
-    right: 180px;
-  }
-
-  .box12 ul li::before {
-    content: "\2022";
-    color: #DF5959;
-    font-weight: bold;
-    display: inline-block;
-    width: 1em;
-    margin-left: -1em;
-  }
-
-  /*
-  Тринадцатая секция
-   */
-
-   .box13 {
-     position: relative;
-     margin-top: 260px;
-     height: 528px;
-   }
-
-   .box13 h3 {
-     position: absolute;
-     top: 0px;
-   }
-
-   .box13 p {
-     position: absolute;
-     top: 90px;
-   }
-
-   .zakuski img {
-     position: absolute;
-     top: 60px;
-     z-index: 88;
-   }
-
-   .greenblock12 {
-     width: 429px;
-     height: 376px;
-     background-color: #2C4228;
-     position: absolute;
-     top: 20px;
-     left: 150px;
-   }
-
-   /*
-   Четырнадцатая секция
-   */
-
-   .box14 {
-     position: relative;
-     margin-top: 144px;
-     height: 556px;
-   }
-
-   .box14 h3 {
-     position: absolute;
-     top: 0px;
-   }
-
-   .box14 p {
-     position: absolute;
-     top: 90px;
-   }
-
-   .cookie img {
-     position: absolute;
-     top: 20px;
-     z-index: 88;
-   }
-
-   .greenblock13 {
-     width: 429px;
-     height: 376px;
-     background-color: #2C4228;
-     position: absolute;
-     top: 180px;
-     right: 450px;
-   }
-
-   /*
-   Пятнадцатая секция
-   */
-
-   .box15 {
-     position: relative;
-     margin-top: 144px;
-     height: 496px;
-   }
-
-   .box15 h3 {
-     position: absolute;
-     top: 0px;
-   }
-
-   .box15 p {
-     position: absolute;
-     top: 90px;
-   }
-
-   .yogurt img {
-     position: absolute;
-     top: 0px;
-     z-index: 88;
-   }
-
-   .greenblock14 {
-     width: 429px;
-     height: 376px;
-     background-color: #2C4228;
-     position: absolute;
-     top: 120px;
-     left: 150px;
-   }
-
-   /*
-   Шестнадцатая секция
-   */
-
-   .box16 {
-     position: relative;
-     margin-top: 144px;
-     height: 647px;
-   }
-
-   .box16 h3 {
-     position: absolute;
-     top: 0px;
-   }
-
-   .box16 p {
-     position: absolute;
-     top: 90px;
-   }
-
-   .nuts img {
-     position: absolute;
-     top: 100px;
-     z-index: 88;
-   }
-
-   .greenblock15 {
-     width: 429px;
-     height: 376px;
-     background-color: #2C4228;
-     position: absolute;
-     right: 180px;
-     top: 0px;
-   }
-
-   /*
-   Семнадцатая секция
-   */
-
-   .box17 {
-     position: relative;
-     margin-top: 144px;
-     height: 486px;
-   }
-
-   .box17 h3 {
-     position: absolute;
-     top: 0px;
-   }
-
-   .box17 p {
-     position: absolute;
-     top: 90px;
-   }
-
-   .chocolad img {
-     position: absolute;
-     left: 50px;
-     z-index: 88;
-   }
-
-   .greenblock16 {
-     width: 429px;
-     height: 376px;
-     background-color: #2C4228;
-     position: absolute;
-     top: 110px;
-   }
-
-   /*
-   Восемнадцатая секция
-    */
-
-  .box18 {
-    position: relative;
-    margin-top: 260px;
-    height: 486px;
-  }
-
-  .box18 h2 {
-    position: absolute;
-    top: 0px;
-  }
-
-  .box18 h3 {
-    position: absolute;
-    top: 70px;
-  }
-
-  .box18 p {
-    position: absolute;
-    top: 165px;
-  }
-
-  .tea img {
-    position: absolute;
-    top: 20px;
-    right: 280px;
-    z-index: 88;
-  }
-
-  .greenblock17 {
-    width: 429px;
-    height: 376px;
-    background-color: #2C4228;
-    position: absolute;
-    top: 110px;
-    right: 180px;
-  }
-
-  /*
-  Девятнадцатая секция
-  */
-
-  .box19 {
-    position: relative;
-    margin-top: 260px;
-    height: 540px;
-  }
-
-  .box19 p {
-    position: absolute;
-    top: 0px;
-  }
-
-  .coffe img {
-    position: absolute;
-    top: 0px;
-    z-index: 88;
-  }
-
-  .coffebeans img {
-    position: absolute;
-    top: 330px;
-    z-index: 88;
-  }
-
-  .greenblock18 {
-    width: 385px;
-    height: 295px;
-    background-color: #2C4228;
-    position: absolute;
-    top: 100px;
-    left: 20px;
-  }
-
-  /*
-  Двадцатая секция
-  */
-
-  .box20 {
-    position: relative;
-    margin-top: 144px;
-    height: 626px;
-  }
-
-  .box20 h3 {
-    position: absolute;
-    top: 0px;
-  }
-
-  .box20 p {
-    position: absolute;
-    top: 90px;
-  }
-
-  .lemon img {
-    position: absolute;
-    top: 20px;
-    right: 180px;
-    z-index: 88;
-  }
-
-  .lemonade img {
-    position: absolute;
-    top: 250px;
-    right: 180px;
-    z-index: 88;
-  }
-
-  .greenblock19 {
-    width: 385px;
-    height: 295px;
-    background-color: #2C4228;
-    position: absolute;
-    top: 80px;
-    right: 260px;
-  }
-
-  /*
-  Двадцатая секция
-  */
-
-  .box21 {
-    position: relative;
-    margin-top: 144px;
-    height: 590px;
-  }
-
-  .box21 p:nth-child(1) {
-    position: absolute;
-    top: 0px;
-    width: 520px;
-  }
-
-  .box21 p:nth-child(2) {
-    position: absolute;
-    top: 270px;
-    width: 520px;
-  }
-
-  .smoothie img {
-    position: absolute;
-    top: 20px;
-    z-index: 88;
-  }
-
-  .greenblock20 {
-    width: 385px;
-    height: 295px;
-    background-color: #2C4228;
-    position: absolute;
-    top: 200px;
-    left: 80px;
-  }
-
-  /*
-  Подвал
-   */
-
-   .box22{
-     background-color: #2C4228;
-     height: 300px;
-     position: relative;
-     margin-top: 260px;
-   }
-
-   .box22 a:link {
-     color: #fff;
-   }
-
-   .box22 a:visited {
-     color: inherit;
-   }
-
-   .box22 p {
-     text-align: center;
-     color: #fff;
-     font-size: 24px;
-   }
-
-   .box22 p:nth-child(1) {
-     position: absolute;
-     font-weight: 600;
-     font-size: 30px;
-     top: 60px;
-     left: 35%;
-   }
-
-   .box22 p:nth-child(2) {
-     position: absolute;
-     top: 120px;
-     left: 35%;
-   }
-
-   .box22 p:nth-child(3) {
-     position: absolute;
-     top: 160px;
-     left: 35%;
-   }
-
-   .box22 p:nth-child(4) {
-     position: absolute;
-     top: 200px;
-     left: 35%;
-   }
+.box7 {
+  position: relative;
+  margin-top: 260px;
+  height: 490px;
+}
+
+.box7 h2 {
+  position: absolute;
+  top: 0px;
+}
+
+.box7 p {
+  position: absolute;
+  top: 90px;
+}
+
+.stove img {
+  position: absolute;
+  top: 130px;
+  left: 130px;
+  z-index: 88;
+}
+
+.greenblock6 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 20px;
+  left: 0px;
+}
+
+/*
+Восьмая секция
+*/
+
+.box8 {
+  position: relative;
+  margin-top: 144px;
+  height: 785px;
+}
+
+.box8 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box8 h3+p {
+  position: absolute;
+  top: 90px;
+}
+
+.box8 p:nth-child(3) {
+  position: absolute;
+  top: 230px;
+}
+
+.left p:nth-child(4) {
+ position: absolute;
+ top: 535px;
+}
+
+.chicken img {
+  position: absolute;
+  top: 350px;
+  right: 180px;
+  z-index: 88;
+}
+
+.vegetables img {
+  position: absolute;
+  top: 20px;
+  right: 220px;
+  z-index: 88;
+}
+
+.greenblock7 {
+  width: 445px;
+  height: 342px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 200px;
+  right: 340px;
+}
+
+
+/*
+Девятая секция
+*/
+
+.box9 {
+  position: relative;
+  margin-top: 144px;
+  height: 498px;
+}
+
+.box9 p {
+  position: absolute;
+  top: 0px;
+}
+
+.kotleta img {
+  position: absolute;
+  top: 20px;
+  z-index: 88;
+}
+
+.greenblock8 {
+  width: 409px;
+  height: 358px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 140px;
+  left: 120px;
+}
+
+/*
+Десятая секция
+ */
+
+.box10 {
+  position: relative;
+  margin-top: 144px;
+  height: 810px;
+}
+
+.box10 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box10 .left p:nth-child(2) {
+  position: absolute;
+  top: 90px;
+}
+
+.box10 .left p:nth-child(3) {
+  position: absolute;
+  top: 520px;
+}
+
+.vegetables2 img {
+  position: absolute;
+  top: 20px;
+  z-index: 88;
+}
+
+.vegetables3 img {
+  position: absolute;
+  top: 510px;
+  right: 180px;
+  z-index: 88;
+}
+
+.greenblock9 {
+  width: 390px;
+  height: 315px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 370px;
+  right: 460px;
+}
+
+ /*
+ Одиннадцатая секция
+ */
+
+.box11 {
+  position: relative;
+  margin-top: 144px;
+  height: 636px;
+}
+
+.box11 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box11 p {
+  position: absolute;
+  top: 90px;
+}
+
+.spagetti img {
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  z-index: 88;
+}
+
+.makaron img {
+  position: absolute;
+  top: 390px;
+  left: 40px;
+  z-index: 88;
+}
+
+.greenblock10 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 90px;
+}
+
+/*
+Двенадцатая секция
+*/
+
+.box12 {
+  position: relative;
+  margin-top: 144px;
+  height: 570px;
+}
+
+.box12 p {
+  position: absolute;
+  top: 0px;
+}
+
+.box12 ul {
+  position: absolute;
+  top: 220px;
+  width: 475px;
+  letter-spacing: 0.5px;
+  line-height: 1.3;
+}
+
+.box12 ul li {
+  padding-top: 10px;
+}
+
+.makaroni img {
+  position: absolute;
+  top: 70px;
+  z-index: 88;
+}
+
+.greenblock11 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 0px;
+  right: 180px;
+}
+
+.box12 ul li::before {
+  content: "\2022";
+  color: #DF5959;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/*
+Тринадцатая секция
+*/
+
+.box13 {
+  position: relative;
+  margin-top: 260px;
+  height: 528px;
+}
+
+.box13 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box13 p {
+  position: absolute;
+  top: 90px;
+}
+
+.zakuski img {
+  position: absolute;
+  top: 60px;
+  z-index: 88;
+}
+
+.greenblock12 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 20px;
+  left: 150px;
+}
+
+/*
+Четырнадцатая секция
+*/
+
+.box14 {
+  position: relative;
+  margin-top: 144px;
+  height: 556px;
+}
+
+.box14 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box14 p {
+  position: absolute;
+  top: 90px;
+}
+
+.cookie img {
+  position: absolute;
+  top: 20px;
+  z-index: 88;
+}
+
+.greenblock13 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 180px;
+  right: 450px;
+}
+
+/*
+Пятнадцатая секция
+*/
+
+.box15 {
+  position: relative;
+  margin-top: 144px;
+  height: 496px;
+}
+
+.box15 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box15 p {
+  position: absolute;
+  top: 90px;
+}
+
+.yogurt img {
+  position: absolute;
+  top: 0px;
+  z-index: 88;
+}
+
+.greenblock14 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+
+/*
+Шестнадцатая секция
+*/
+
+.box16 {
+  position: relative;
+  margin-top: 144px;
+  height: 647px;
+}
+
+.box16 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box16 p {
+  position: absolute;
+  top: 90px;
+}
+
+.nuts img {
+  position: absolute;
+  top: 100px;
+  z-index: 88;
+}
+
+.greenblock15 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  right: 180px;
+  top: 0px;
+}
+
+/*
+Семнадцатая секция
+*/
+
+.box17 {
+  position: relative;
+  margin-top: 144px;
+  height: 486px;
+}
+
+.box17 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box17 p {
+  position: absolute;
+  top: 90px;
+}
+
+.chocolad img {
+  position: absolute;
+  left: 50px;
+  z-index: 88;
+}
+
+.greenblock16 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 110px;
+}
+
+/*
+Восемнадцатая секция
+*/
+
+.box18 {
+  position: relative;
+  margin-top: 260px;
+  height: 486px;
+}
+
+.box18 h2 {
+  position: absolute;
+  top: 0px;
+}
+
+.box18 h3 {
+  position: absolute;
+  top: 70px;
+}
+
+.box18 p {
+  position: absolute;
+  top: 165px;
+}
+
+.tea img {
+  position: absolute;
+  top: 20px;
+  right: 280px;
+  z-index: 88;
+}
+
+.greenblock17 {
+  width: 429px;
+  height: 376px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 110px;
+  right: 180px;
+}
+
+/*
+Девятнадцатая секция
+*/
+
+.box19 {
+  position: relative;
+  margin-top: 260px;
+  height: 540px;
+}
+
+.box19 p {
+  position: absolute;
+  top: 0px;
+}
+
+.coffe img {
+  position: absolute;
+  top: 0px;
+  z-index: 88;
+}
+
+.coffebeans img {
+  position: absolute;
+  top: 330px;
+  z-index: 88;
+}
+
+.greenblock18 {
+  width: 385px;
+  height: 295px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+
+/*
+Двадцатая секция
+*/
+
+.box20 {
+  position: relative;
+  margin-top: 144px;
+  height: 626px;
+}
+
+.box20 h3 {
+  position: absolute;
+  top: 0px;
+}
+
+.box20 p {
+  position: absolute;
+  top: 90px;
+}
+
+.lemon img {
+  position: absolute;
+  top: 20px;
+  right: 180px;
+  z-index: 88;
+}
+
+.lemonade img {
+  position: absolute;
+  top: 250px;
+  right: 180px;
+  z-index: 88;
+}
+
+.greenblock19 {
+  width: 385px;
+  height: 295px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 80px;
+  right: 260px;
+}
+
+/*
+Двадцатая секция
+*/
+
+.box21 {
+  position: relative;
+  margin-top: 144px;
+  height: 590px;
+}
+
+.box21 p:nth-child(1) {
+  position: absolute;
+  top: 0px;
+  width: 520px;
+}
+
+.box21 p:nth-child(2) {
+  position: absolute;
+  top: 270px;
+  width: 520px;
+}
+
+.smoothie img {
+  position: absolute;
+  top: 20px;
+  z-index: 88;
+}
+
+.greenblock20 {
+  width: 385px;
+  height: 295px;
+  background-color: #2C4228;
+  position: absolute;
+  top: 200px;
+  left: 80px;
+}
+
+/*
+Подвал
+*/
+
+.box22{
+  background-color: #2C4228;
+  height: 300px;
+  position: relative;
+  margin-top: 260px;
+}
+
+.box22 a:link {
+  color: #fff;
+}
+
+.box22 a:visited {
+  color: inherit;
+}
+
+.box22 p {
+  text-align: center;
+  color: #fff;
+  font-size: 24px;
+}
+
+.box22 p:nth-child(1) {
+  position: absolute;
+  font-weight: 600;
+  font-size: 30px;
+  top: 60px;
+  left: 35%;
+}
+
+.box22 p:nth-child(2) {
+  position: absolute;
+  top: 120px;
+  left: 35%;
+}
+
+.box22 p:nth-child(3) {
+  position: absolute;
+  top: 160px;
+  left: 35%;
+}
+
+.box22 p:nth-child(4) {
+  position: absolute;
+  top: 200px;
+  left: 35%;
+}
